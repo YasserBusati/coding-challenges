@@ -3,47 +3,50 @@ Welcome to the C# Coding Challenges repository! 🚀 This repository contains so
 
 # Repository Structure
 ```
-coding-challenges/
-│── README.md
-│── .gitignore
-│── src/
-│   │── LeetCode/
-│   │   │── Arrays/
-│   │   │   │── TwoSum.cs
-│   │   │   │── MergeSortedArray.cs
-│   │   │── Strings/
-│   │   │── LinkedLists/
-│   │── Codeforces/
-│   │   │── Div2/
-│   │   │   │── Problem1872A.cs
-│   │── HackerRank/
-│   │── ProjectEuler/
-│── tests/
-│   │── LeetCodeTests/
-│   │   │── TwoSumTests.cs
-│   │── CodeforcesTests/
-│── docs/ (Optional)
-│── solutions.md
-│── Algorithms/
-│   │── Sorting/
+📦 CodingChallenges
+│── 📂 docs/
+│── 📂 src/
+│   │── 📂 Arrays/
+│   │   │── TwoSum.cs
+│   │   │── MergeSortedArray.cs
+│   │── 📂 Strings/
+│   │── 📂 LinkedLists/
+│   │── 📂 Searching/
+│   │   │── BinarySearch.cs
+│   │── 📂 Sorting/
 │   │   │── QuickSort.cs
 │   │   │── MergeSort.cs
-│   │── Searching/
-│   │   │── BinarySearch.cs
-│   │── DynamicProgramming/
-│── DataStructures/
+│   │── 📂 DynamicProgramming/
+│   │   │── Knapsack.cs
+│   │   │── Fibonacci.cs
+│   │── 📂 Graphs/
+│   │   │── Dijkstra.cs
+│   │   │── BFS.cs
+│   │   │── DFS.cs
+│   │── 📂 BitManipulation/
+│   │   │── SwapBits.cs
+│   │── 📂 MathTricks/
+│   │   │── SieveOfEratosthenes.cs
+│   │── 📂 SystemDesign/
+│   │   │── LRUCache.cs
+│── 📂 DataStructures/
 │   │── LinkedList.cs
 │   │── Stack.cs
 │   │── Queue.cs
-│── CompetitiveProgramming/
-│   │── BitManipulation.cs
+│   │── Trie.cs
+│── 📂 CompetitiveProgramming/
 │   │── MathTricks.cs
 │   │── Graphs/
 │   │   │── Dijkstra.cs
 │   │   │── BFS.cs
-│── SystemDesign/
-│   │── LowLevel/
-│   │── HighLevel/
+│── 📂 utils/
+│   │── InputParser.cs
+│   │── OutputFormatter.cs
+│── 📜 Program.cs
+│── 📜 ProblemRunner.cs
+│── 📜 README.md
+│── 📜 .gitignore
+
 ```
 
 # 🚀 Running Problems Dynamically
