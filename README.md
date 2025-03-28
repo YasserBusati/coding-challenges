@@ -1,7 +1,9 @@
 # coding-challenges
+
 Welcome to the C# Coding Challenges repository! 🚀 This repository contains solutions to various coding problems from platforms like LeetCode, CodeForces, and more. It is structured to help you organize, run, and test solutions efficiently while keeping the repository scalable.
 
 # Repository Structure
+
 ```
 📦 CodingChallenges
 │── 📂 docs/
@@ -29,23 +31,32 @@ Welcome to the C# Coding Challenges repository! 🚀 This repository contains so
 │   │   │── SieveOfEratosthenes.cs
 │   │── 📂 SystemDesign/
 │   │   │── LRUCache.cs
-│── 📂 DataStructures/
-│   │── LinkedList.cs
-│   │── Stack.cs
-│   │── Queue.cs
-│   │── Trie.cs
-│── 📂 CompetitiveProgramming/
-│   │── MathTricks.cs
-│   │── Graphs/
-│   │   │── Dijkstra.cs
-│   │   │── BFS.cs
-│── 📂 utils/
-│   │── InputParser.cs
-│   │── OutputFormatter.cs
-│── 📜 Program.cs
-│── 📜 ProblemRunner.cs
+│   │   │── 📂 DataStructures/
+│   │   │── LinkedList.cs
+│   │   │── Stack.cs
+│   │   │── Queue.cs
+│   │   │── Trie.cs
+│   │── 📂 CompetitiveProgramming/
+│   │   │── MathTricks.cs
+│   │   │── Graphs/
+│   │   │   │── Dijkstra.cs
+│   │   │   │── BFS.cs
+│   │── 📂 utils/
+│   │   │── InputParser.cs
+│   │   │── OutputFormatter/
+│   │── 📜 Program.cs
+│   │── 📜 ProblemRunner.cs
+│   │── 📜 CodingChallenges.csproj
+│── 📂 tests/
+│   │── 📂 ArraysTests/
+│   │   │── TwoSumTests.cs
+│   │── 📂 SortingTests/
+│   │   │── QuickSortTests.cs
+│   │── 📂 DynamicProgrammingTests/
+│   │   │── KnapsackTests.cs
 │── 📜 README.md
 │── 📜 .gitignore
+│── 📜 CodingChallenges.sln
 
 ```
 
@@ -59,31 +70,38 @@ This repository supports dynamic execution of coding problems without modifying 
 
 1️⃣ Each problem is implemented as a **C# class** with a **`Run()` method**.  
 2️⃣ The `ProblemRunner` class uses **reflection** to locate and execute the problem dynamically.  
-3️⃣ Problems are structured under different categories (e.g., `LeetCode`, `CodeForces`).  
-4️⃣ You can run a problem using the **CLI** or interactively.  
+3️⃣ Problems are structured under different categories.  
+4️⃣ You can run a problem using the **CLI** or interactively.
 
 ---
 
 ## 🎯 Running a Problem
 
 ### 🔹 Method 1: Command Line Execution
+
 Run a specific problem by passing its **fully qualified class name**:
 
 ```sh
-dotnet run LeetCode.Arrays.TwoSum
+cd src
+dotnet run Arrays.TwoSum
 ```
-✔ This will locate and execute `TwoSum.cs` from the `LeetCode.Arrays` namespace.
+
+✔ This will locate and execute `TwoSum.cs` from the `CodingChallenges.Arrays` namespace.
 
 ---
 
 ### 🔹 Method 2: Interactive Mode
+
 If no problem name is provided, the program will prompt you:
+
 ```sh
-dotnet run
+dotnet run --project ./src
 ```
-Then enter the problem name manually:
+
+Enter the problem to run (e.g., Arrays.TwoSum)
+
 ```
-Enter the problem name: LeetCode.Arrays.TwoSum
+Enter the problem name: Arrays.TwoSum
 ```
 
 ---
@@ -93,7 +111,7 @@ Enter the problem name: LeetCode.Arrays.TwoSum
 Here’s how a problem should be structured:
 
 ```csharp
-namespace LeetCode.Arrays
+namespace CodingChallenges.Arrays
 {
     public class TwoSum
     {
@@ -104,6 +122,7 @@ namespace LeetCode.Arrays
     }
 }
 ```
+
 ✔ This ensures `ProblemRunner` can find and execute it.
 
 ---
@@ -113,17 +132,15 @@ namespace LeetCode.Arrays
 The `ProblemRunner` class:  
 ✅ **Searches** for the class dynamically using reflection.  
 ✅ **Finds and invokes** the `Run()` method.  
-✅ **Handles errors gracefully** if the problem is not found or has no `Run()` method.  
+✅ **Handles errors gracefully** if the problem is not found or has no `Run()` method.
 
 ---
 
 ## 📌 Why This Approach?
+
 ✔ **No need to modify `Program.cs` for every new problem**  
-✔ **Supports multiple problem categories (LeetCode, CodeForces, etc.)**  
+✔ **Supports multiple problem categories (DynamicProgramming, SystemDesign, etc.)**  
 ✔ **Can be run via CLI or interactively**  
-✔ **Scalable and maintainable**  
+✔ **Scalable and maintainable**
 
 ---
-
-
-
