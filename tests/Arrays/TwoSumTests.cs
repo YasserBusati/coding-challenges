@@ -2,7 +2,7 @@
 
 using CodingChallenges.Arrays;
 
-namespace tests;
+namespace tests.Arrays;
 
 public class TwoSumTests
 {
