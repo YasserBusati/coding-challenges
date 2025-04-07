@@ -1,0 +1,8 @@
+@RequestTimeoutRestriction_HostAddress = http://localhost:5294
+
+GET {{RequestTimeoutRestriction_HostAddress}}/fast/
+Accept: application/json
+
+###
+GET {{RequestTimeoutRestriction_HostAddress}}/slow/
+Accept: application/json

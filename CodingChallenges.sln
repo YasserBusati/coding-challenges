@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPAddressRestriction", "ApisProblem\Middleware\IPAddressRestriction\IPAddressRestriction.csproj", "{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestTimeoutRestriction", "ApisProblem\Middleware\RequestTimeoutRestriction\RequestTimeoutRestriction.csproj", "{DE3FC149-48E7-42C7-AB92-9EDA723EE53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +36,14 @@ Global
 		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3FC149-48E7-42C7-AB92-9EDA723EE53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3FC149-48E7-42C7-AB92-9EDA723EE53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3FC149-48E7-42C7-AB92-9EDA723EE53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3FC149-48E7-42C7-AB92-9EDA723EE53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{28C8C914-7BDC-4AD8-84F3-2603990286D2} = {6D512424-10DE-404A-9804-59CDCE9AD3D2}
 		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4} = {28C8C914-7BDC-4AD8-84F3-2603990286D2}
+		{DE3FC149-48E7-42C7-AB92-9EDA723EE53B} = {28C8C914-7BDC-4AD8-84F3-2603990286D2}
 	EndGlobalSection
 EndGlobal
