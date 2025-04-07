@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges", "src\Cod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{72B4961A-220A-4377-ABA3-93C07CAD026A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApisProblem", "ApisProblem", "{6D512424-10DE-404A-9804-59CDCE9AD3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{28C8C914-7BDC-4AD8-84F3-2603990286D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPAddressRestriction", "ApisProblem\Middleware\IPAddressRestriction\IPAddressRestriction.csproj", "{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,13 @@ Global
 		{72B4961A-220A-4377-ABA3-93C07CAD026A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B4961A-220A-4377-ABA3-93C07CAD026A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B4961A-220A-4377-ABA3-93C07CAD026A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28C8C914-7BDC-4AD8-84F3-2603990286D2} = {6D512424-10DE-404A-9804-59CDCE9AD3D2}
+		{B1DB6CF4-21B1-4984-8E8D-0CA5094212F4} = {28C8C914-7BDC-4AD8-84F3-2603990286D2}
 	EndGlobalSection
 EndGlobal

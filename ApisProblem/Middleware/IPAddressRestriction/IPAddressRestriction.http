@@ -1,0 +1,5 @@
+@IPAddressRestriction_HostAddress = http://localhost:5244
+
+GET {{IPAddressRestriction_HostAddress}}/resources
+Accept: application/json
+
