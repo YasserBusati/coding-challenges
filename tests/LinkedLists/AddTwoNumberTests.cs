@@ -1,8 +1,9 @@
 using CodingChallenges.LinkedLists;
 using CodingChallenges.utils;
-using Xunit;
 
-public class SolutionTests
+namespace tests.LinkedLists;
+
+public class AddTwoNumberTests
 {
     [Fact]
     public void Test_AddTwoNumbers_Case1()
@@ -17,7 +18,7 @@ public class SolutionTests
 
         // Assert
         var expected = new ListNode(7, new ListNode(0, new ListNode(8))); // 807
-        Assert.Equal(expected, result);
+        Assert.Equal(expected.NodeToList(), result.NodeToList());
     }
 
     [Fact]
@@ -33,7 +34,7 @@ public class SolutionTests
 
         // Assert
         var expected = new ListNode(0);
-        Assert.Equal(expected, result);
+        Assert.Equal(expected.NodeToList(), result.NodeToList());
     }
 
     [Fact]
@@ -49,6 +50,7 @@ public class SolutionTests
 
         // Assert
         var expected = new ListNode(0, new ListNode(0, new ListNode(1))); // 100
-        Assert.Equal(expected, result);
+        Assert.Equal(expected.NodeToList(), result.NodeToList());
     }
+
 }
