@@ -1,4 +1,4 @@
-namespace CodingChallenges.Maths;
+namespace CodingChallenges.Maths.ReverseInteger;
 
 public class ReverseInteger
 {
