@@ -23,6 +23,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 ## Maths
 
 1. [Reverse Integer](../src/Maths/ReverseInteger/ReverseInteger.cs)
+2. [Palindrome Number](../src/Maths/PalindromeNumber/PalindromeNumber.cs)
 
 ## Cryptograghic
 
