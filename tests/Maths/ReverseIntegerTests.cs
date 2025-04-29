@@ -1,4 +1,4 @@
-using CodingChallenges.Maths;
+using CodingChallenges.Maths.ReverseInteger;
 
 namespace tests.Maths;
 
