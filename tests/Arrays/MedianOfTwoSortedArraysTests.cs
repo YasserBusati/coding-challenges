@@ -1,4 +1,4 @@
-using CodingChallenges.Arrays;
+using CodingChallenges.Arrays.MedianOfTwoSorted;
 
 namespace tests.Arrays;
 

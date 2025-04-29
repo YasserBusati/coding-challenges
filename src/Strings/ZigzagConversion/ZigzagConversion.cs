@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace CodingChallenges.Strings;
+namespace CodingChallenges.Strings.ZigzagConversion;
 
 public class ZigzagConversion
 {

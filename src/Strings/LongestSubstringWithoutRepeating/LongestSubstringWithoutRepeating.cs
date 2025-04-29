@@ -1,4 +1,4 @@
-namespace CodingChallenges.Strings;
+namespace CodingChallenges.Strings.LongestSubstringWithoutRepeating;
 
 public class LongestSubstringWithoutRepeating
 {

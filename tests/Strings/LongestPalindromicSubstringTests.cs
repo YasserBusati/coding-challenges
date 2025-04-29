@@ -1,6 +1,6 @@
 
 
-using CodingChallenges.Strings;
+using CodingChallenges.Strings.LongestPalindromicSubstring;
 
 namespace tests.Strings;
 

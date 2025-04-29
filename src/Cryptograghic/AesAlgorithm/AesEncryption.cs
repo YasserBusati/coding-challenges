@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CodingChallenges.Cryptograghic;
+namespace CodingChallenges.Cryptograghic.AesAlgorithm;
 
 public class AesEncryption
 {

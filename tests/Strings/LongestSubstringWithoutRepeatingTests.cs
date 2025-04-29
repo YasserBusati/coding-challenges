@@ -1,4 +1,4 @@
-using CodingChallenges.Strings;
+using CodingChallenges.Strings.LongestSubstringWithoutRepeating;
 
 namespace tests.Strings;
 
