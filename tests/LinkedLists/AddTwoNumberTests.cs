@@ -1,4 +1,4 @@
-using CodingChallenges.LinkedLists;
+using CodingChallenges.LinkedLists.AddTwoNumber;
 using CodingChallenges.utils;
 
 namespace tests.LinkedLists;

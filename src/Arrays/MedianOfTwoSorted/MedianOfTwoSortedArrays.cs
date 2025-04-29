@@ -1,4 +1,4 @@
-namespace CodingChallenges.Arrays;
+namespace CodingChallenges.Arrays.MedianOfTwoSorted;
 public class MedianOfTwoSortedArrays
 {
     public static void Run()

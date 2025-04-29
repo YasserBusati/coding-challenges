@@ -14,6 +14,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 1. [Longest Substring Without Repeating Characters](../src/Strings/LongestSubstringWithoutRepeating/LongestSubstringWithoutRepeating.cs)
 2. [longest Palindromic Substring](../src/Strings/LongestPalindromicSubstring/LongestPalindromicSubstring.cs)
 3. [Zigzag Conversion](../src/Strings/ZigzagConversion/ZigzagConversion.cs)
+4. [String to Integer (atoi)](<../src/Strings/StringToInteger(atoi)/StringToInteger.cs>)
 
 ## Linked Lists
 
@@ -49,4 +50,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **7 + 3 Projects**
+# 📝 Total Problems: **8 + 3 Projects**

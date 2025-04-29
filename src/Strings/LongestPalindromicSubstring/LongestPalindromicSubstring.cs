@@ -1,4 +1,4 @@
-namespace CodingChallenges.Strings;
+namespace CodingChallenges.Strings.LongestPalindromicSubstring;
 public class LongestPalindromicSubstring
 {
     public static void Run()

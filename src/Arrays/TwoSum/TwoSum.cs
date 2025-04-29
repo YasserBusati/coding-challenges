@@ -1,4 +1,4 @@
-namespace CodingChallenges.Arrays;
+namespace CodingChallenges.Arrays.TwoSum;
 public class TwoSum
 {
     public static void Run()

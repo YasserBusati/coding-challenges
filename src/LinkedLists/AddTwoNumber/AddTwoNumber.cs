@@ -1,7 +1,6 @@
 
-using System.Collections.Generic;
 using CodingChallenges.utils;
-namespace CodingChallenges.LinkedLists;
+namespace CodingChallenges.LinkedLists.AddTwoNumber;
 public class Solution
 {
     public static void Run()

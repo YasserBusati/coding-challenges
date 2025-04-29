@@ -1,6 +1,4 @@
-
-
-using CodingChallenges.Arrays;
+using CodingChallenges.Arrays.TwoSum;
 
 namespace tests.Arrays;
 

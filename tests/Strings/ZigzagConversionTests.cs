@@ -1,4 +1,4 @@
-using CodingChallenges.Strings;
+using CodingChallenges.Strings.ZigzagConversion;
 
 namespace tests.Strings;
 
