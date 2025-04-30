@@ -8,6 +8,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 1. [Two Sum](../src/Arrays/TwoSum/TwoSum.cs)
 2. [Median Of Two Sorted Arrays](../src/Arrays/MedianOfTwoSorted/MedianOfTwoSortedArrays.cs)
+3. [Container With Most Water](../src/Arrays/ContainerWithMostWater/ContainerWithMostWater.cs)
 
 ## Strings
 
@@ -51,4 +52,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **8 + 3 Projects**
+# 📝 Total Problems: **10 + 3 Projects**
