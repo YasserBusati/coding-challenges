@@ -26,6 +26,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 1. [Reverse Integer](../src/Maths/ReverseInteger/ReverseInteger.cs)
 2. [Palindrome Number](../src/Maths/PalindromeNumber/PalindromeNumber.cs)
 3. [Integer To Roman](../src/Maths/IntegerToRoman/IntegerToRoman.cs)
+4. [Roman TO Integer](../src/Maths/RomanToInteger/RomanToInteger.cs)
 
 ## Cryptograghic
 
@@ -53,4 +54,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **11 + 3 Projects**
+# 📝 Total Problems: **12 + 3 Projects**
