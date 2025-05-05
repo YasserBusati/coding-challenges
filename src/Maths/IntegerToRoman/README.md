@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-This C# solution converts an integer to its corresponding Roman numeral representation. Roman numerals are represented by combinations of letters from the Latin alphabet, with specific rules for construction and special subtraction cases.
+This converts an integer to its corresponding Roman numeral representation. Roman numerals are represented by combinations of letters from the Latin alphabet, with specific rules for construction and special subtraction cases.
 
 ## Roman Numeral Basics
 
@@ -67,3 +67,7 @@ To use this converter, simply call the `IntToRoman` method with an integer betwe
 ## Note
 
 This implementation efficiently handles all valid conversions by leveraging the systematic nature of Roman numeral construction and the predefined value-symbol pairs.
+
+## Features
+
+- Convert Integer to Roman numerals (1-3999)
