@@ -16,6 +16,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 2. [longest Palindromic Substring](../src/Strings/LongestPalindromicSubstring/LongestPalindromicSubstring.cs)
 3. [Zigzag Conversion](../src/Strings/ZigzagConversion/ZigzagConversion.cs)
 4. [String to Integer (atoi)](<../src/Strings/StringToInteger(atoi)/StringToInteger.cs>)
+5. [Longest Common Prefix](../src/Strings/LongestCommonPrefix/LongestCommonPrefix.cs)
 
 ## Linked Lists
 
@@ -54,4 +55,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **12 + 3 Projects**
+# 📝 Total Problems: **13 + 3 Projects**
