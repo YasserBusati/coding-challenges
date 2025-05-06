@@ -19,6 +19,7 @@ public class ThreeSum
 
         for (int i = 0; i < n - 2; i++)
         {
+            if (nums[i] > 0) break; // Since the array is sorted, no need to continue if the current number is greater than 0
             if (i > 0 && nums[i] == nums[i - 1]) continue; // Skip duplicates
 
             int left = i + 1;
