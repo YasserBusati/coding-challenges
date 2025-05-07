@@ -10,6 +10,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 2. [Median Of Two Sorted Arrays](../src/Arrays/MedianOfTwoSorted/MedianOfTwoSortedArrays.cs)
 3. [Container With Most Water](../src/Arrays/ContainerWithMostWater/ContainerWithMostWater.cs)
 4. [3 Sum](../src/Arrays/ThreeSum/ThreeSum.cs)
+5. [3 Sum Closest](../src/Arrays/ThreeSumClosest/ThreeSumClosest.cs)
 
 ## Strings
 
@@ -56,4 +57,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **14 + 3 Projects**
+# 📝 Total Problems: **15 + 3 Projects**
