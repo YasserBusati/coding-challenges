@@ -31,6 +31,10 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 3. [Integer To Roman](../src/Maths/IntegerToRoman/IntegerToRoman.cs)
 4. [Roman TO Integer](../src/Maths/RomanToInteger/RomanToInteger.cs)
 
+## Recursions
+
+1. [Letter Combinations of a Phone Number](../src/Recursions/LetterCombinationsOfPhoneNumber/PhoneLetterCombinations.cs)
+
 ## Cryptograghic
 
 1. [AesEncryption](../src/Cryptograghic/Aes/AesEncryption.cs)
@@ -57,4 +61,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **15 + 3 Projects**
+# 📝 Total Problems: **16 + 3 Projects**
