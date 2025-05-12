@@ -11,6 +11,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 3. [Container With Most Water](../src/Arrays/ContainerWithMostWater/ContainerWithMostWater.cs)
 4. [3 Sum](../src/Arrays/ThreeSum/ThreeSum.cs)
 5. [3 Sum Closest](../src/Arrays/ThreeSumClosest/ThreeSumClosest.cs)
+6. [4 Sum](../src/Arrays/FourSum/FourSum.cs)
 
 ## Strings
 
@@ -61,4 +62,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **16 + 3 Projects**
+# 📝 Total Problems: **17 + 3 Projects**
