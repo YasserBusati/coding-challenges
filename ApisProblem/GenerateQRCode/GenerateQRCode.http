@@ -1,0 +1,8 @@
+@GenerateQRCode_HostAddress = http://localhost:5119
+
+GET {{GenerateQRCode_HostAddress}}/api/QRCode/generate?text=test
+Accept: application/json
+
+###
+GET {{GenerateQRCode_HostAddress}}/api/QRCode/generate-base64?text=test
+Accept: application/json
