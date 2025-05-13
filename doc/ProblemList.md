@@ -24,6 +24,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 ## Linked Lists
 
 1. [Add Two Numbers](../src/LinkedLists/AddTwoNumber/AddTwoNumber.cs)
+2. [Remove Nth Node From End of List](../src/LinkedLists/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cs)
 
 ## Maths
 
@@ -63,4 +64,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **17 + 4 Projects**
+# 📝 Total Problems: **18 + 4 Projects**
