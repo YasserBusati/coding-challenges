@@ -54,6 +54,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 ## 📂 All
 
 1. [Excel Converter](../ApisProblem/ExcelConverter/Program.cs)
+2. [Generate QR Code](../ApisProblem/GenerateQRCode/Program.cs)
 
 ## 🛡️ Middleware
 
@@ -62,4 +63,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **17 + 3 Projects**
+# 📝 Total Problems: **17 + 4 Projects**
