@@ -26,6 +26,10 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 1. [Add Two Numbers](../src/LinkedLists/AddTwoNumber/AddTwoNumber.cs)
 2. [Remove Nth Node From End of List](../src/LinkedLists/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cs)
 
+## Stacks
+
+1. [Valid Parentheses](../src/Stacks/ValidParentheses/ValidParentheses.cs)
+
 ## Maths
 
 1. [Reverse Integer](../src/Maths/ReverseInteger/ReverseInteger.cs)
@@ -64,4 +68,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **18 + 4 Projects**
+# 📝 Total Problems: **19 + 4 Projects**
