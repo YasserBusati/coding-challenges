@@ -1,0 +1,7 @@
+@CoffeeShopApi_HostAddress = http://localhost:5046
+
+POST {{ CoffeeShopApi_HostAddress }}/api/coffee/order?beanType=Arabica&amount=5
+Accept: application/json
+
+###
+GET {{ CoffeeShopApi_HostAddress }}/api/coffee/orders
