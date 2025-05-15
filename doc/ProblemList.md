@@ -25,6 +25,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 1. [Add Two Numbers](../src/LinkedLists/AddTwoNumber/AddTwoNumber.cs)
 2. [Remove Nth Node From End of List](../src/LinkedLists/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cs)
+3. [Merge Two Sorted Lists](../src/LinkedLists/MergeTwoSortedLists/MergeTwoSortedLists.cs)
 
 ## Stacks
 
@@ -68,4 +69,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **19 + 4 Projects**
+# 📝 Total Problems: **20 + 4 Projects**
