@@ -41,6 +41,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 ## Recursions
 
 1. [Letter Combinations of a Phone Number](../src/Recursions/LetterCombinationsOfPhoneNumber/PhoneLetterCombinations.cs)
+2. [Generate Parentheses](../src/Recursions/GenerateParentheses/GenerateParentheses.cs)
 
 ## Cryptograghic
 
@@ -69,4 +70,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **20 + 4 Projects**
+# 📝 Total Problems: **21 + 4 Projects**
