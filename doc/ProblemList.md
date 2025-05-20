@@ -27,6 +27,7 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 2. [Remove Nth Node From End of List](../src/LinkedLists/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cs)
 3. [Merge Two Sorted Lists](../src/LinkedLists/MergeTwoSortedLists/MergeTwoSortedLists.cs)
 4. [Merge k Sorted Lists](../src/LinkedLists/MergeKSortedLists/MergeKSortedLists.cs)
+5. [Swap Nodes in Pairs](../src/LinkedLists/SwapNodesInPairs/SwapNodesInPairs.cs)
 
 ## Stacks
 
@@ -71,4 +72,4 @@ Welcome to the list of all problems! Click on any problem to jump to its code.
 
 ---
 
-# 📝 Total Problems: **22 + 4 Projects**
+# 📝 Total Problems: **23 + 4 Projects**
